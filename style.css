@@ -92,3 +92,14 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 450px) {
+    .search input{
+        margin-right: -61px;
+    }
+}
+@media (max-width: 330px) {
+    .search input{
+        font-size: 12px;
+    }
+}
